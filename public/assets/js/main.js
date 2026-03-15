@@ -48,7 +48,7 @@ Progressbar js
 	}
 	splitTextToSpans(target);
 	// Preloader js
-	$(window).on("load", function () {
+	function initPreloader() {
 		const tjPreloader = $(".tj-preloader");
 		if (tjPreloader?.length) {
 			setTimeout(function () {
@@ -63,7 +63,13 @@ Progressbar js
 			wowController();
 			gsapController();
 		}
-	});
+	}
+
+	if (document.readyState === "complete") {
+		initPreloader();
+	} else {
+		$(window).on("load", initPreloader);
+	}
 
 	/* ------------- Gsap registration Js -------------*/
 	gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);

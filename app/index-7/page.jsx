@@ -159,7 +159,7 @@ export default function Page() {
               <div className="header-wrapper">
                 {/* site logo */}
                 <div className="site_logo">
-                  <a className="logo" href="/"><img src="/assets/images/logos/logo-2.webp" alt /></a>
+                  <a className="logo" href="/"><img src="/assets/images/logos/logo-2.webp" alt="" /></a>
                 </div>
                 {/* navigation */}
                 <div className="menu-area d-none d-lg-inline-flex align-items-center">
@@ -174,7 +174,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-1.webp" alt />
+                                        <img src="/assets/images/header/demo/home-1.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -190,7 +190,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-2.webp" alt />
+                                        <img src="/assets/images/header/demo/home-2.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-2" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -206,7 +206,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-3.webp" alt />
+                                        <img src="/assets/images/header/demo/home-3.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-3" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -222,7 +222,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-4.webp" alt />
+                                        <img src="/assets/images/header/demo/home-4.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-4" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -238,7 +238,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-5.webp" alt />
+                                        <img src="/assets/images/header/demo/home-5.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-5" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -254,7 +254,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-6.webp" alt />
+                                        <img src="/assets/images/header/demo/home-6.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-6" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -270,7 +270,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-7.webp" alt />
+                                        <img src="/assets/images/header/demo/home-7.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-7" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -286,7 +286,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-8.webp" alt />
+                                        <img src="/assets/images/header/demo/home-8.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -305,7 +305,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-9.webp" alt />
+                                        <img src="/assets/images/header/demo/home-9.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -324,7 +324,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-10.webp" alt />
+                                        <img src="/assets/images/header/demo/home-10.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -413,7 +413,7 @@ export default function Page() {
                                       </a>
                                     </div>
                                     <div className="feature-images">
-                                      <img src="/assets/images/service/service-ad.webp" alt />
+                                      <img src="/assets/images/service/service-ad.webp" alt="" />
                                     </div>
                                   </div>
                                 </div>
@@ -530,7 +530,7 @@ export default function Page() {
               <div className="header-wrapper">
                 {/* site logo */}
                 <div className="site_logo">
-                  <a className="logo" href="/"><img src="/assets/images/logos/logo.webp" alt /></a>
+                  <a className="logo" href="/"><img src="/assets/images/logos/logo.webp" alt="" /></a>
                 </div>
                 {/* navigation */}
                 <div className="menu-area d-none d-lg-inline-flex align-items-center">
@@ -545,7 +545,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-1.webp" alt />
+                                        <img src="/assets/images/header/demo/home-1.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -561,7 +561,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-2.webp" alt />
+                                        <img src="/assets/images/header/demo/home-2.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-2" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -577,7 +577,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-3.webp" alt />
+                                        <img src="/assets/images/header/demo/home-3.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-3" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -593,7 +593,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-4.webp" alt />
+                                        <img src="/assets/images/header/demo/home-4.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-4" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -609,7 +609,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-5.webp" alt />
+                                        <img src="/assets/images/header/demo/home-5.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-5" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -625,7 +625,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-6.webp" alt />
+                                        <img src="/assets/images/header/demo/home-6.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-6" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -641,7 +641,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-7.webp" alt />
+                                        <img src="/assets/images/header/demo/home-7.webp" alt="" />
                                         <div className="tj-demo-button">
                                           <a href="/index-7" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
@@ -657,7 +657,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-8.webp" alt />
+                                        <img src="/assets/images/header/demo/home-8.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -676,7 +676,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-9.webp" alt />
+                                        <img src="/assets/images/header/demo/home-9.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -695,7 +695,7 @@ export default function Page() {
                                   <div className="col-xl-3 col-lg-3 col-12">
                                     <div className="tj-demo-thumb ">
                                       <div className="image">
-                                        <img src="/assets/images/header/demo/home-10.webp" alt />
+                                        <img src="/assets/images/header/demo/home-10.webp" alt="" />
                                         <h6 className="tj-demo-badge tj-zoom-in-out-anim">
                                           New
                                         </h6>
@@ -784,7 +784,7 @@ export default function Page() {
                                       </a>
                                     </div>
                                     <div className="feature-images">
-                                      <img src="/assets/images/service/service-ad.webp" alt />
+                                      <img src="/assets/images/service/service-ad.webp" alt="" />
                                     </div>
                                   </div>
                                 </div>
@@ -906,20 +906,20 @@ export default function Page() {
                     <div className="col-12">
                       <div className="h7-hero-item-wrapper">
                         <div className="h7-hero-content">
-                          <h1 className="h7-hero-title text-anim"><span>Delivering</span> <span><img className="wow bounceIn" data-wow-delay="1s" src="/assets/images/icons/verified.svg" alt />Trusted</span>
+                          <h1 className="h7-hero-title text-anim"><span>Delivering</span> <span><img className="wow bounceIn" data-wow-delay="1s" src="/assets/images/icons/verified.svg" alt="" />Trusted</span>
                             <span>Solutions</span>
                           </h1>
                         </div>
                         <div className="h7-hero-banner">
-                          <img className="wow fadeInUpBig" data-wow-delay=".8s" src="/assets/images/hero/h7-hero-banner.webp" alt />
+                          <img className="wow fadeInUpBig" data-wow-delay=".8s" src="/assets/images/hero/h7-hero-banner.webp" alt="" />
                         </div>
                         <div className="h7-hero-box">
                           <div className="customers">
                             <ul>
-                              <li className="wow fadeInLeft" data-wow-delay=".5s"><img src="/assets/images/testimonial/client-1.webp" alt /></li>
-                              <li className="wow fadeInLeft" data-wow-delay=".6s"><img src="/assets/images/testimonial/client-2.webp" alt /></li>
-                              <li className="wow fadeInLeft" data-wow-delay=".7s"><img src="/assets/images/testimonial/client-3.webp" alt /></li>
-                              <li className="wow fadeInLeft" data-wow-delay=".8s"><img src="/assets/images/testimonial/client-4.webp" alt /></li>
+                              <li className="wow fadeInLeft" data-wow-delay=".5s"><img src="/assets/images/testimonial/client-1.webp" alt="" /></li>
+                              <li className="wow fadeInLeft" data-wow-delay=".6s"><img src="/assets/images/testimonial/client-2.webp" alt="" /></li>
+                              <li className="wow fadeInLeft" data-wow-delay=".7s"><img src="/assets/images/testimonial/client-3.webp" alt="" /></li>
+                              <li className="wow fadeInLeft" data-wow-delay=".8s"><img src="/assets/images/testimonial/client-4.webp" alt="" /></li>
                             </ul>
                           </div>
                           <div className="h7-hero-box-content wow fadeInLeft" data-wow-delay=".9s">
@@ -943,8 +943,8 @@ export default function Page() {
                 <span className="circle-text" data-bg-image="/assets/images/hero/circle-text.webp" />
                 <a className="circle-icon" href="/service"><i className="tji-arrow-down-big" /></a>
               </div>
-              <div className="h7-hero-shape h7-hero-shape-1 wow fadeInUpBig" data-wow-delay="1s"><img className="tj-anim-move-var-big" src="/assets/images/shape/h7-hero-blur-1.png" alt /></div>
-              <div className="h7-hero-shape h7-hero-shape-2 wow fadeInDownBig" data-wow-delay="1.2s"><img className="tj-anim-move-var-big-reverse" src="/assets/images/shape/h7-hero-blur-2.png" alt /></div>
+              <div className="h7-hero-shape h7-hero-shape-1 wow fadeInUpBig" data-wow-delay="1s"><img className="tj-anim-move-var-big" src="/assets/images/shape/h7-hero-blur-1.png" alt="" /></div>
+              <div className="h7-hero-shape h7-hero-shape-2 wow fadeInDownBig" data-wow-delay="1.2s"><img className="tj-anim-move-var-big-reverse" src="/assets/images/shape/h7-hero-blur-2.png" alt="" /></div>
             </section>
             {/* end: Banner Slider */}
             {/* start: Choose Section */}
@@ -1022,37 +1022,37 @@ export default function Page() {
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Growth</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-1.webp" alt />
+                        <img src="/assets/images/marquee/marquee-1.webp" alt="" />
                       </div>
                     </div>
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Leadership</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-2.webp" alt />
+                        <img src="/assets/images/marquee/marquee-2.webp" alt="" />
                       </div>
                     </div>
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Enterprise</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-1.webp" alt />
+                        <img src="/assets/images/marquee/marquee-1.webp" alt="" />
                       </div>
                     </div>
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Leadership</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-2.webp" alt />
+                        <img src="/assets/images/marquee/marquee-2.webp" alt="" />
                       </div>
                     </div>
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Enterprise</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-1.webp" alt />
+                        <img src="/assets/images/marquee/marquee-1.webp" alt="" />
                       </div>
                     </div>
                     <div className="swiper-slide marquee-item">
                       <h4 className="marquee-text">Leadership</h4>
                       <div className="marquee-img">
-                        <img src="/assets/images/marquee/marquee-2.webp" alt />
+                        <img src="/assets/images/marquee/marquee-2.webp" alt="" />
                       </div>
                     </div>
                   </div>
@@ -1123,7 +1123,7 @@ export default function Page() {
                 <div className="row">
                   <div className="col-12 col-xl-6">
                     <div className="h7-about-banner  wow fadeInUp" data-wow-delay=".2s">
-                      <img data-speed=".8" src="/assets/images/about/h7-about-banner.webp" alt />
+                      <img data-speed=".8" src="/assets/images/about/h7-about-banner.webp" alt="" />
                     </div>
                   </div>
                   <div className="col-12 col-xl-6">
@@ -1174,10 +1174,10 @@ export default function Page() {
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt />
+                <img src="/assets/images/shape/pattern-2.svg" alt="" />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt />
+                <img src="/assets/images/shape/pattern-3.svg" alt="" />
               </div>
             </section>
             {/* end: About Section */}
@@ -1300,7 +1300,7 @@ export default function Page() {
                               <div className="testimonial-author">
                                 <div className="author-inner">
                                   <div className="author-img">
-                                    <img src="/assets/images/testimonial/client-1.webp" alt />
+                                    <img src="/assets/images/testimonial/client-1.webp" alt="" />
                                   </div>
                                   <div className="author-header">
                                     <h4 className="title">Guy Hawkins</h4>
@@ -1329,7 +1329,7 @@ export default function Page() {
                               <div className="testimonial-author">
                                 <div className="author-inner">
                                   <div className="author-img">
-                                    <img src="/assets/images/testimonial/client-2.webp" alt />
+                                    <img src="/assets/images/testimonial/client-2.webp" alt="" />
                                   </div>
                                   <div className="author-header">
                                     <h4 className="title">Ralph Edwards</h4>
@@ -1358,7 +1358,7 @@ export default function Page() {
                               <div className="testimonial-author">
                                 <div className="author-inner">
                                   <div className="author-img">
-                                    <img src="/assets/images/testimonial/client-3.webp" alt />
+                                    <img src="/assets/images/testimonial/client-3.webp" alt="" />
                                   </div>
                                   <div className="author-header">
                                     <h4 className="title">Devon Lane</h4>
@@ -1398,17 +1398,17 @@ export default function Page() {
                         </span>
                       </div>
                       <div className="bg-shape-3">
-                        <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt />
+                        <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt />
+                <img src="/assets/images/shape/pattern-2.svg" alt="" />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt />
+                <img src="/assets/images/shape/pattern-3.svg" alt="" />
               </div>
             </section>
             {/* end: Testimonial Section */}
@@ -1508,7 +1508,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-1.webp" alt />
+                                <img src="/assets/images/team/h7-team-1.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1519,7 +1519,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-2.webp" alt />
+                                <img src="/assets/images/team/h7-team-2.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1530,7 +1530,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-3.webp" alt />
+                                <img src="/assets/images/team/h7-team-3.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1541,7 +1541,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-4.webp" alt />
+                                <img src="/assets/images/team/h7-team-4.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1552,7 +1552,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-1.webp" alt />
+                                <img src="/assets/images/team/h7-team-1.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1563,7 +1563,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-2.webp" alt />
+                                <img src="/assets/images/team/h7-team-2.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1574,7 +1574,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-3.webp" alt />
+                                <img src="/assets/images/team/h7-team-3.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1585,7 +1585,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-4.webp" alt />
+                                <img src="/assets/images/team/h7-team-4.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1600,7 +1600,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-6.webp" alt />
+                                <img src="/assets/images/team/h7-team-6.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1611,7 +1611,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-7.webp" alt />
+                                <img src="/assets/images/team/h7-team-7.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1622,7 +1622,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-8.webp" alt />
+                                <img src="/assets/images/team/h7-team-8.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1633,7 +1633,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-9.webp" alt />
+                                <img src="/assets/images/team/h7-team-9.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1644,7 +1644,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-6.webp" alt />
+                                <img src="/assets/images/team/h7-team-6.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1655,7 +1655,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-7.webp" alt />
+                                <img src="/assets/images/team/h7-team-7.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1666,7 +1666,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-8.webp" alt />
+                                <img src="/assets/images/team/h7-team-8.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1677,7 +1677,7 @@ export default function Page() {
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
-                                <img src="/assets/images/team/h7-team-9.webp" alt />
+                                <img src="/assets/images/team/h7-team-9.webp" alt="" />
                               </div>
                             </div>
                           </div>
@@ -1688,7 +1688,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="bg-shape-3">
-                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt />
+                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
               </div>
             </section>
             {/* end: Team Section */}
@@ -1786,7 +1786,7 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-1.webp" alt /></a>
+                        <a href="/blog-details"><img src="/assets/images/blog/blog-1.webp" alt="" /></a>
                         <div className="blog-meta">
                           <span className="categories"><a href="/blog-details">Business</a></span>
                         </div>
@@ -1808,7 +1808,7 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-2.webp" alt /></a>
+                        <a href="/blog-details"><img src="/assets/images/blog/blog-2.webp" alt="" /></a>
                         <div className="blog-meta">
                           <span className="categories"><a href="/blog-details">Empower</a></span>
                         </div>
@@ -1831,7 +1831,7 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-3.webp" alt /></a>
+                        <a href="/blog-details"><img src="/assets/images/blog/blog-3.webp" alt="" /></a>
                         <div className="blog-meta">
                           <span className="categories"><a href="/blog-details">Support</a></span>
                         </div>
@@ -1881,7 +1881,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="bg-shape-3">
-                <img src="/assets/images/shape/shape-blur.svg" alt />
+                <img src="/assets/images/shape/shape-blur.svg" alt="" />
               </div>
             </section>
             {/* end: Cta Section */}
@@ -1904,10 +1904,10 @@ export default function Page() {
                       </div>
                       <div className="award-logo-area">
                         <div className="award-logo">
-                          <img src="/assets/images/footer/award-logo-1.webp" alt />
+                          <img src="/assets/images/footer/award-logo-1.webp" alt="" />
                         </div>
                         <div className="award-logo">
-                          <img src="/assets/images/footer/award-logo-2.webp" alt />
+                          <img src="/assets/images/footer/award-logo-2.webp" alt="" />
                         </div>
                       </div>
                     </div>
@@ -1995,10 +1995,10 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-shape-1">
-              <img src="/assets/images/shape/pattern-2.svg" alt />
+              <img src="/assets/images/shape/pattern-2.svg" alt="" />
             </div>
             <div className="bg-shape-2">
-              <img src="/assets/images/shape/pattern-3.svg" alt />
+              <img src="/assets/images/shape/pattern-3.svg" alt="" />
             </div>
           </footer>
           {/* end: Footer Section */}

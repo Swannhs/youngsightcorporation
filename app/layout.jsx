@@ -15,7 +15,6 @@ const stylesheets = [
 ];
 
 const scripts = [
-  "/assets/js/jquery.min.js",
   "/assets/js/bootstrap.bundle.min.js",
   "/assets/js/gsap.min.js",
   "/assets/js/ScrollSmoother.js",
@@ -56,6 +55,7 @@ export default function RootLayout({ children }) {
         ))}
       </head>
       <body suppressHydrationWarning>{children}
+        <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />
         {scripts.map((src) => (
           <Script key={src} src={src} strategy="afterInteractive" />
         ))}
