@@ -1,4 +1,6 @@
-export const metadata = { title: "Bexon - Corporate Business HTML Template" };
+import Link from "next/link";
+
+export const metadata = { title: "youngsightcorporation" };
 
 export default function Page() {
   return (
@@ -33,9 +35,9 @@ export default function Page() {
           <div className="hamburger_inner">
             <div className="hamburger_top d-flex align-items-center justify-content-between">
               <div className="hamburger_logo">
-                <a href="/" className="mobile_logo">
-                  <img src="/assets/images/logos/logo-2.webp" alt="Logo" />
-                </a>
+                <Link href="/" className="mobile_logo">
+                  <img src="/assets/images/logos/youngsightcorporation-logo-light.svg" alt="youngsightcorporation logo" />
+                </Link>
               </div>
               <div className="hamburger_close">
                 <button className="hamburger_close_btn"><i className="fa-thin fa-times" /></button>
@@ -96,9 +98,9 @@ export default function Page() {
           <div className="hamburger_inner">
             <div className="hamburger_top d-flex align-items-center justify-content-between">
               <div className="hamburger_logo">
-                <a href="/" className="mobile_logo">
-                  <img src="/assets/images/logos/logo-2.webp" alt="Logo" />
-                </a>
+                <Link href="/" className="mobile_logo">
+                  <img src="/assets/images/logos/youngsightcorporation-logo-light.svg" alt="youngsightcorporation logo" />
+                </Link>
               </div>
               <div className="hamburger_close">
                 <button className="hamburger_close_btn"><i className="fa-thin fa-times" /></button>
@@ -159,13 +161,13 @@ export default function Page() {
               <div className="header-wrapper">
                 {/* site logo */}
                 <div className="site_logo">
-                  <a className="logo" href="/"><img src="/assets/images/logos/logo-2.webp" alt="" /></a>
+                  <Link className="logo" href="/"><img src="/assets/images/logos/youngsightcorporation-logo-light.svg" alt="" /></Link>
                 </div>
                 {/* navigation */}
                 <div className="menu-area d-none d-lg-inline-flex align-items-center">
                   <nav id="mobile-menu" className="mainmenu">
                     <ul>
-                      <li className="has-dropdown current-menu-ancestor"><a href="/">Home</a>
+                      <li className="has-dropdown current-menu-ancestor"><Link href="/">Home</Link>
                         <ul className="sub-menu header__mega-menu mega-menu  ">
                           <li>
                             <div className="mega-menu-wrapper">
@@ -176,15 +178,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-1.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/" className="tj-primary-btn header_btn">
+                                          <Link href="/" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/">Homepage
                                           -
-                                          01</a></h6>
+                                          01</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -192,15 +194,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-2.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-2" className="tj-primary-btn header_btn">
+                                          <Link href="/index-2" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-2">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-2">Homepage
                                           -
-                                          02</a></h6>
+                                          02</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -208,15 +210,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-3.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-3" className="tj-primary-btn header_btn">
+                                          <Link href="/index-3" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-3">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-3">Homepage
                                           -
-                                          03</a></h6>
+                                          03</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -224,15 +226,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-4.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-4" className="tj-primary-btn header_btn">
+                                          <Link href="/index-4" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-4">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-4">Homepage
                                           -
-                                          04</a></h6>
+                                          04</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -240,15 +242,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-5.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-5" className="tj-primary-btn header_btn">
+                                          <Link href="/index-5" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-5">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-5">Homepage
                                           -
-                                          05</a></h6>
+                                          05</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -256,15 +258,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-6.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-6" className="tj-primary-btn header_btn">
+                                          <Link href="/index-6" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-6">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-6">Homepage
                                           -
-                                          06</a></h6>
+                                          06</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -272,15 +274,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-7.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-7" className="tj-primary-btn header_btn">
+                                          <Link href="/index-7" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-7">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-7">Homepage
                                           -
-                                          07</a></h6>
+                                          07</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -291,15 +293,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-8" className="tj-primary-btn header_btn">
+                                          <Link href="/index-8" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-8">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-8">Homepage
                                           -
-                                          08</a></h6>
+                                          08</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -310,15 +312,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-9" className="tj-primary-btn header_btn">
+                                          <Link href="/index-9" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-9">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-9">Homepage
                                           -
-                                          09</a></h6>
+                                          09</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -329,15 +331,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-10" className="tj-primary-btn header_btn">
+                                          <Link href="/index-10" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-10">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-10">Homepage
                                           -
-                                          10</a></h6>
+                                          10</Link></h6>
                                     </div>
                                   </div>
                                 </div>
@@ -346,7 +348,7 @@ export default function Page() {
                           </li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/about">Pages</a>
+                      <li className="has-dropdown"><Link href="/about">Pages</Link>
                         <ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
                           <li>
                             <div className="mega-menu-wrapper">
@@ -354,16 +356,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Main Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/about">About us</a>
-                                    <a href="/history">Our history <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></a>
-                                    <a href="/team">Team</a>
-                                    <a href="/team-details">Team details</a>
-                                    <a href="/careers">Careers <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/careers-details">Careers details</a>
-                                    <a href="/pricing">Pricing plan</a>
-                                    <a href="#">Feedbacks</a>
-                                    <a href="/faq">Faq</a>
-                                    <a href="/contact">Contact</a>
+                                    <Link href="/about">About us</Link>
+                                    <Link href="/history">Our history <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></Link>
+                                    <Link href="/team">Team</Link>
+                                    <Link href="/team-details">Team details</Link>
+                                    <Link href="/careers">Careers <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/careers-details">Careers details</Link>
+                                    <Link href="/pricing">Pricing plan</Link>
+                                    <Link href="#">Feedbacks</Link>
+                                    <Link href="/faq">Faq</Link>
+                                    <Link href="/contact">Contact</Link>
                                   </div>
                                 </div>
                               </div>
@@ -371,16 +373,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Other Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/service">Services</a>
-                                    <a href="/service-details">Service details</a>
-                                    <a href="/portfolio">Portfolio</a>
-                                    <a href="/portfolio-details">Portfolio details</a>
-                                    <a href="/error">Error 404</a>
-                                    <a href="/blog-grid">Blog grid <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/blog">Blog standard</a>
-                                    <a href="/blog-details">Blog details</a>
-                                    <a href="/terms-and-conditions">Term &amp; conditions</a>
-                                    <a href="#">Recognition <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
+                                    <Link href="/service">Services</Link>
+                                    <Link href="/service-details">Service details</Link>
+                                    <Link href="/portfolio">Portfolio</Link>
+                                    <Link href="/portfolio-details">Portfolio details</Link>
+                                    <Link href="/error">Error 404</Link>
+                                    <Link href="/blog-grid">Blog grid <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/blog">Blog standard</Link>
+                                    <Link href="/blog-details">Blog details</Link>
+                                    <Link href="/terms-and-conditions">Term &amp; conditions</Link>
+                                    <Link href="#">Recognition <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
                                   </div>
                                 </div>
                               </div>
@@ -388,16 +390,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Shop Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/shop">Shop <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></a>
-                                    <a href="/shop-details">Shop details </a>
-                                    <a href="/cart">Cart</a>
-                                    <a href="/checkout">Checkout</a>
-                                    <a href="/wishlist">Wishlist<span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/login">Login</a>
-                                    <a href="#">Tracking</a>
-                                    <a href="#">Order confirm</a>
-                                    <a href="/login">Registration</a>
-                                    <a href="#">Coming soon</a>
+                                    <Link href="/shop">Shop <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></Link>
+                                    <Link href="/shop-details">Shop details </Link>
+                                    <Link href="/cart">Cart</Link>
+                                    <Link href="/checkout">Checkout</Link>
+                                    <Link href="/wishlist">Wishlist<span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/login">Login</Link>
+                                    <Link href="#">Tracking</Link>
+                                    <Link href="#">Order confirm</Link>
+                                    <Link href="/login">Registration</Link>
+                                    <Link href="#">Coming soon</Link>
                                   </div>
                                 </div>
                               </div>
@@ -422,43 +424,43 @@ export default function Page() {
                           </li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/service">Services</a>
+                      <li className="has-dropdown"><Link href="/service">Services</Link>
                         <ul className="sub-menu  mega-menu-service">
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-1" />
-                              </span> <span className="mega-menu-service-title">Business Strategy Development</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Business Strategy Development</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-2" />
-                              </span> <span className="mega-menu-service-title">Customer Experience Solutions</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Customer Experience Solutions</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-3" />
-                              </span> <span className="mega-menu-service-title">Sustainability and ESG Consulting</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Sustainability and ESG Consulting</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-4" />
-                              </span> <span className="mega-menu-service-title">Training and Development Programs</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Training and Development Programs</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-5" />
-                              </span> <span className="mega-menu-service-title">IT Support &amp; Maintenance</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">IT Support &amp; Maintenance</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-6" />
-                              </span> <span className="mega-menu-service-title">Marketing Strategy &amp; Campaigns</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
+                              </span> <span className="mega-menu-service-title">Marketing Strategy &amp; Campaigns</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/portfolio">Portfolio</a>
+                      <li className="has-dropdown"><Link href="/portfolio">Portfolio</Link>
                         <ul className="sub-menu">
-                          <li><a href="/portfolio">Portfolio</a></li>
-                          <li><a href="/portfolio-details">Portfolio Details</a></li>
+                          <li><Link href="/portfolio">Portfolio</Link></li>
+                          <li><Link href="/portfolio-details">Portfolio Details</Link></li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/blog">Blog</a>
+                      <li className="has-dropdown"><Link href="/blog">Blog</Link>
                         <ul className="sub-menu">
-                          <li><a href="/blog">Blog</a></li>
-                          <li><a href="/blog-grid">Blog Grid</a></li>
-                          <li><a href="/blog-right-sidebar">Blog Right Sidebar</a></li>
-                          <li><a href="/blog-details">Blog Details</a></li>
+                          <li><Link href="/blog">Blog</Link></li>
+                          <li><Link href="/blog-grid">Blog Grid</Link></li>
+                          <li><Link href="/blog-right-sidebar">Blog Right Sidebar</Link></li>
+                          <li><Link href="/blog-details">Blog Details</Link></li>
                         </ul>
                       </li>
-                      <li><a href="/contact">Contact</a></li>
+                      <li><Link href="/contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>
@@ -476,10 +478,10 @@ export default function Page() {
                     </button>
                   </div>
                   <div className="header-button">
-                    <a className="tj-primary-btn" href="/contact">
-                      <span className="btn-text"><span>Letâs Talk</span></span>
+                    <Link className="tj-primary-btn" href="/contact">
+                      <span className="btn-text"><span>Let's Talk</span></span>
                       <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="menu_bar menu_offcanvas d-none d-lg-inline-flex">
                     <span />
@@ -530,13 +532,13 @@ export default function Page() {
               <div className="header-wrapper">
                 {/* site logo */}
                 <div className="site_logo">
-                  <a className="logo" href="/"><img src="/assets/images/logos/logo.webp" alt="" /></a>
+                  <Link className="logo" href="/"><img src="/assets/images/logos/youngsightcorporation-logo.svg" alt="youngsightcorporation logo" /></Link>
                 </div>
                 {/* navigation */}
                 <div className="menu-area d-none d-lg-inline-flex align-items-center">
                   <nav className="mainmenu">
                     <ul>
-                      <li className="has-dropdown current-menu-ancestor"><a href="/">Home</a>
+                      <li className="has-dropdown current-menu-ancestor"><Link href="/">Home</Link>
                         <ul className="sub-menu header__mega-menu mega-menu  ">
                           <li>
                             <div className="mega-menu-wrapper">
@@ -547,15 +549,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-1.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/" className="tj-primary-btn header_btn">
+                                          <Link href="/" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/">Homepage
                                           -
-                                          01</a></h6>
+                                          01</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -563,15 +565,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-2.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-2" className="tj-primary-btn header_btn">
+                                          <Link href="/index-2" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-2">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-2">Homepage
                                           -
-                                          02</a></h6>
+                                          02</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -579,15 +581,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-3.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-3" className="tj-primary-btn header_btn">
+                                          <Link href="/index-3" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-3">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-3">Homepage
                                           -
-                                          03</a></h6>
+                                          03</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -595,15 +597,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-4.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-4" className="tj-primary-btn header_btn">
+                                          <Link href="/index-4" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-4">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-4">Homepage
                                           -
-                                          04</a></h6>
+                                          04</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -611,15 +613,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-5.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-5" className="tj-primary-btn header_btn">
+                                          <Link href="/index-5" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-5">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-5">Homepage
                                           -
-                                          05</a></h6>
+                                          05</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -627,15 +629,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-6.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-6" className="tj-primary-btn header_btn">
+                                          <Link href="/index-6" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-6">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-6">Homepage
                                           -
-                                          06</a></h6>
+                                          06</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -643,15 +645,15 @@ export default function Page() {
                                       <div className="image">
                                         <img src="/assets/images/header/demo/home-7.webp" alt="" />
                                         <div className="tj-demo-button">
-                                          <a href="/index-7" className="tj-primary-btn header_btn">
+                                          <Link href="/index-7" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-7">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-7">Homepage
                                           -
-                                          07</a></h6>
+                                          07</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -662,15 +664,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-8" className="tj-primary-btn header_btn">
+                                          <Link href="/index-8" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-8">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-8">Homepage
                                           -
-                                          08</a></h6>
+                                          08</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -681,15 +683,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-9" className="tj-primary-btn header_btn">
+                                          <Link href="/index-9" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-9">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-9">Homepage
                                           -
-                                          09</a></h6>
+                                          09</Link></h6>
                                     </div>
                                   </div>
                                   <div className="col-xl-3 col-lg-3 col-12">
@@ -700,15 +702,15 @@ export default function Page() {
                                           New
                                         </h6>
                                         <div className="tj-demo-button">
-                                          <a href="/index-10" className="tj-primary-btn header_btn">
+                                          <Link href="/index-10" className="tj-primary-btn header_btn">
                                             <span className="btn-text"><span>View demo</span></span>
                                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
-                                      <h6 className="tj-demo-title"><a href="/index-10">Homepage
+                                      <h6 className="tj-demo-title"><Link href="/index-10">Homepage
                                           -
-                                          10</a></h6>
+                                          10</Link></h6>
                                     </div>
                                   </div>
                                 </div>
@@ -717,7 +719,7 @@ export default function Page() {
                           </li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/about">Pages</a>
+                      <li className="has-dropdown"><Link href="/about">Pages</Link>
                         <ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
                           <li>
                             <div className="mega-menu-wrapper">
@@ -725,16 +727,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Main Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/about">About us</a>
-                                    <a href="/history">Our history <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></a>
-                                    <a href="/team">Team</a>
-                                    <a href="/team-details">Team details</a>
-                                    <a href="/careers">Careers <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/careers-details">Careers details</a>
-                                    <a href="/pricing">Pricing plan</a>
-                                    <a href="#">Feedbacks</a>
-                                    <a href="/faq">Faq</a>
-                                    <a href="/contact">Contact</a>
+                                    <Link href="/about">About us</Link>
+                                    <Link href="/history">Our history <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></Link>
+                                    <Link href="/team">Team</Link>
+                                    <Link href="/team-details">Team details</Link>
+                                    <Link href="/careers">Careers <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/careers-details">Careers details</Link>
+                                    <Link href="/pricing">Pricing plan</Link>
+                                    <Link href="#">Feedbacks</Link>
+                                    <Link href="/faq">Faq</Link>
+                                    <Link href="/contact">Contact</Link>
                                   </div>
                                 </div>
                               </div>
@@ -742,16 +744,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Other Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/service">Services</a>
-                                    <a href="/service-details">Service details</a>
-                                    <a href="/portfolio">Portfolio</a>
-                                    <a href="/portfolio-details">Portfolio details</a>
-                                    <a href="/error">Error 404</a>
-                                    <a href="/blog-grid">Blog grid <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/blog">Blog standard</a>
-                                    <a href="/blog-details">Blog details</a>
-                                    <a href="/terms-and-conditions">Term &amp; conditions</a>
-                                    <a href="#">Recognition <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
+                                    <Link href="/service">Services</Link>
+                                    <Link href="/service-details">Service details</Link>
+                                    <Link href="/portfolio">Portfolio</Link>
+                                    <Link href="/portfolio-details">Portfolio details</Link>
+                                    <Link href="/error">Error 404</Link>
+                                    <Link href="/blog-grid">Blog grid <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/blog">Blog standard</Link>
+                                    <Link href="/blog-details">Blog details</Link>
+                                    <Link href="/terms-and-conditions">Term &amp; conditions</Link>
+                                    <Link href="#">Recognition <span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
                                   </div>
                                 </div>
                               </div>
@@ -759,16 +761,16 @@ export default function Page() {
                                 <div className="mega-menu-pages-single-inner">
                                   <h6 className="mega-menu-title">Shop Pages</h6>
                                   <div className="mega-menu-list">
-                                    <a href="/shop">Shop <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></a>
-                                    <a href="/shop-details">Shop details </a>
-                                    <a href="/cart">Cart</a>
-                                    <a href="/checkout">Checkout</a>
-                                    <a href="/wishlist">Wishlist<span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></a>
-                                    <a href="/login">Login</a>
-                                    <a href="#">Tracking</a>
-                                    <a href="#">Order confirm</a>
-                                    <a href="/login">Registration</a>
-                                    <a href="#">Coming soon</a>
+                                    <Link href="/shop">Shop <span className="mega-menu-badge tj-zoom-in-out-anim mega-menu-badge-hot ">HOT</span></Link>
+                                    <Link href="/shop-details">Shop details </Link>
+                                    <Link href="/cart">Cart</Link>
+                                    <Link href="/checkout">Checkout</Link>
+                                    <Link href="/wishlist">Wishlist<span className="mega-menu-badge tj-zoom-in-out-anim ">NEW</span></Link>
+                                    <Link href="/login">Login</Link>
+                                    <Link href="#">Tracking</Link>
+                                    <Link href="#">Order confirm</Link>
+                                    <Link href="/login">Registration</Link>
+                                    <Link href="#">Coming soon</Link>
                                   </div>
                                 </div>
                               </div>
@@ -793,43 +795,43 @@ export default function Page() {
                           </li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/service">Services</a>
+                      <li className="has-dropdown"><Link href="/service">Services</Link>
                         <ul className="sub-menu  mega-menu-service">
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-1" />
-                              </span> <span className="mega-menu-service-title">Business Strategy Development</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Business Strategy Development</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-2" />
-                              </span> <span className="mega-menu-service-title">Customer Experience Solutions</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Customer Experience Solutions</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-3" />
-                              </span> <span className="mega-menu-service-title">Sustainability and ESG Consulting</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Sustainability and ESG Consulting</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-4" />
-                              </span> <span className="mega-menu-service-title">Training and Development Programs</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">Training and Development Programs</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-5" />
-                              </span> <span className="mega-menu-service-title">IT Support &amp; Maintenance</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
-                          <li> <a className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
+                              </span> <span className="mega-menu-service-title">IT Support &amp; Maintenance</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
+                          <li> <Link className="mega-menu-service-single" href="/service-details"> <span className="mega-menu-service-icon">
                                 <i className="tji-service-6" />
-                              </span> <span className="mega-menu-service-title">Marketing Strategy &amp; Campaigns</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></a></li>
+                              </span> <span className="mega-menu-service-title">Marketing Strategy &amp; Campaigns</span> <span className="mega-menu-service-nav"><i className="tji-arrow-right-long" /><i className="tji-arrow-right-long" /></span></Link></li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/portfolio">Portfolio</a>
+                      <li className="has-dropdown"><Link href="/portfolio">Portfolio</Link>
                         <ul className="sub-menu">
-                          <li><a href="/portfolio">Portfolio</a></li>
-                          <li><a href="/portfolio-details">Portfolio Details</a></li>
+                          <li><Link href="/portfolio">Portfolio</Link></li>
+                          <li><Link href="/portfolio-details">Portfolio Details</Link></li>
                         </ul>
                       </li>
-                      <li className="has-dropdown"><a href="/blog">Blog</a>
+                      <li className="has-dropdown"><Link href="/blog">Blog</Link>
                         <ul className="sub-menu">
-                          <li><a href="/blog">Blog</a></li>
-                          <li><a href="/blog-grid">Blog Grid</a></li>
-                          <li><a href="/blog-right-sidebar">Blog Right Sidebar</a></li>
-                          <li><a href="/blog-details">Blog Details</a></li>
+                          <li><Link href="/blog">Blog</Link></li>
+                          <li><Link href="/blog-grid">Blog Grid</Link></li>
+                          <li><Link href="/blog-right-sidebar">Blog Right Sidebar</Link></li>
+                          <li><Link href="/blog-details">Blog Details</Link></li>
                         </ul>
                       </li>
-                      <li><a href="/contact">Contact</a></li>
+                      <li><Link href="/contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>
@@ -847,10 +849,10 @@ export default function Page() {
                     </button>
                   </div>
                   <div className="header-button">
-                    <a className="tj-primary-btn" href="/contact">
-                      <span className="btn-text"><span>Letâs Talk</span></span>
+                    <Link className="tj-primary-btn" href="/contact">
+                      <span className="btn-text"><span>Let's Talk</span></span>
                       <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="menu_bar menu_offcanvas d-none d-lg-inline-flex">
                     <span />
@@ -941,7 +943,7 @@ export default function Page() {
               </div>
               <div className="circle-text-wrap wow fadeInUp" data-wow-delay="2.2s">
                 <span className="circle-text" data-bg-image="/assets/images/hero/circle-text.webp" />
-                <a className="circle-icon" href="/service"><i className="tji-arrow-down-big" /></a>
+                <Link className="circle-icon" href="/service"><i className="tji-arrow-down-big" /></Link>
               </div>
               <div className="h7-hero-shape h7-hero-shape-1 wow fadeInUpBig" data-wow-delay="1s"><img className="tj-anim-move-var-big" src="/assets/images/shape/h7-hero-blur-1.png" alt="" /></div>
               <div className="h7-hero-shape h7-hero-shape-2 wow fadeInDownBig" data-wow-delay="1.2s"><img className="tj-anim-move-var-big-reverse" src="/assets/images/shape/h7-hero-blur-2.png" alt="" /></div>
@@ -970,10 +972,10 @@ export default function Page() {
                         <p className="desc">We stay ahead of the curve, leveraging cutting-edge technologies and strategies to
                           keep
                           you competitive in a marketplace.</p>
-                        <a className="text-btn" href="/about">
+                        <Link className="text-btn" href="/about">
                           <span className="btn-text"><span>Read More</span></span>
                           <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -987,10 +989,10 @@ export default function Page() {
                         <p className="desc">Recognized by industry leaders, our award-winning team has a proven record of
                           delivering
                           excellence across projects.</p>
-                        <a className="text-btn" href="/about">
+                        <Link className="text-btn" href="/about">
                           <span className="btn-text"><span>Read More</span></span>
                           <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1003,10 +1005,10 @@ export default function Page() {
                         <h4 className="title">Dedicated Support</h4>
                         <p className="desc">Our team is always available to address your concerns, providing quick and effective
                           solution to keep your business.</p>
-                        <a className="text-btn" href="/about">
+                        <Link className="text-btn" href="/about">
                           <span className="btn-text"><span>Read More</span></span>
                           <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1106,10 +1108,10 @@ export default function Page() {
                                 </div>
                               </div>
                               <div className="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
-                                <a className="tj-primary-btn" href="/about">
+                                <Link className="tj-primary-btn" href="/about">
                                   <span className="btn-text"><span>Know More Us</span></span>
                                   <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -1150,10 +1152,10 @@ export default function Page() {
                           <div className="customers-bg" data-bg-image="/assets/images/about/h7-about-item-bg.webp" />
                           <h6 className="customers-text wow fadeInLeft" data-wow-delay=".6s">Enabling startups to raise $25M+ in
                             venture funding.</h6>
-                          <a className="text-btn wow fadeInLeft" data-wow-delay=".5s" href="/contact">
+                          <Link className="text-btn wow fadeInLeft" data-wow-delay=".5s" href="/contact">
                             <span className="btn-text"><span>Contact us</span></span>
                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-12 col-md-6">
@@ -1203,10 +1205,10 @@ export default function Page() {
                     <div className="section-desc-wrapper  slidebar-stickiy">
                       <p className="desc">Recognized by industry leaders, our award winning team has a proven.</p>
                       <div className=" wow fadeInUp" data-wow-delay=".3s">
-                        <a className="tj-primary-btn" href="/service">
+                        <Link className="tj-primary-btn" href="/service">
                           <span className="btn-text"><span>More services</span></span>
                           <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1218,12 +1220,12 @@ export default function Page() {
                             <div className="service-icon">
                               <i className="tji-service-5" />
                             </div>
-                            <h4 className="title"><a href="/service-details">Business Strategy Development</a></h4>
+                            <h4 className="title"><Link href="/service-details">Business Strategy Development</Link></h4>
                           </div>
                           <div className="h7-service-action">
-                            <a className="text-btn" href="/service-details">
+                            <Link className="text-btn" href="/service-details">
                               <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1233,12 +1235,12 @@ export default function Page() {
                             <div className="service-icon">
                               <i className="tji-service-2" />
                             </div>
-                            <h4 className="title"><a href="/service-details">Customer Experience Solutions</a></h4>
+                            <h4 className="title"><Link href="/service-details">Customer Experience Solutions</Link></h4>
                           </div>
                           <div className="h7-service-action">
-                            <a className="text-btn" href="/service-details">
+                            <Link className="text-btn" href="/service-details">
                               <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1248,12 +1250,12 @@ export default function Page() {
                             <div className="service-icon">
                               <i className="tji-service-3" />
                             </div>
-                            <h4 className="title"><a href="/service-details">Sustainability and ESG Consulting</a></h4>
+                            <h4 className="title"><Link href="/service-details">Sustainability and ESG Consulting</Link></h4>
                           </div>
                           <div className="h7-service-action">
-                            <a className="text-btn" href="/service-details">
+                            <Link className="text-btn" href="/service-details">
                               <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1263,12 +1265,12 @@ export default function Page() {
                             <div className="service-icon">
                               <i className="tji-service-4" />
                             </div>
-                            <h4 className="title"><a href="/service-details">Marketing Strategy &amp; Campaigns</a></h4>
+                            <h4 className="title"><Link href="/service-details">Marketing Strategy &amp; Campaigns</Link></h4>
                           </div>
                           <div className="h7-service-action">
-                            <a className="text-btn" href="/service-details">
+                            <Link className="text-btn" href="/service-details">
                               <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1309,7 +1311,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <div className="desc">
-                                <p>Weâve been working with us for years &amp; they continue to deliver outstanding results.
+                                <p>We've been working with us for years &amp; they continue to deliver outstanding results.
                                   Their
                                   team is proactive, responsive, and always goes the extra mile to ensure our needs are met.
                                 </p>
@@ -1367,7 +1369,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <div className="desc">
-                                <p>The results weâve seen after partnering with Bexon are beyond our expectations. They not
+                                <p>The results we've seen after partnering with Bexon are beyond our expectations. They not
                                   only
                                   understood our vision but also brought new ideas to the table that have taken our business
                                 </p>
@@ -1422,10 +1424,10 @@ export default function Page() {
                         Projects</span>
                       <h2 className="sec-title text-anim">Driving Success Through Our Projects.</h2>
                       <div className=" wow fadeInUp" data-wow-delay=".3s">
-                        <a className="tj-primary-btn" href="/portfolio">
+                        <Link className="tj-primary-btn" href="/portfolio">
                           <span className="btn-text"><span>Explore More </span></span>
                           <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1438,12 +1440,12 @@ export default function Page() {
                         <div className="project-content">
                           <div className="project-text">
                             <div>
-                              <h3 className="title"><a href="/portfolio-details">Event Management Platform</a></h3>
-                              <span className="categories"><a href="/portfolio-details">Business</a></span>
+                              <h3 className="title"><Link href="/portfolio-details">Event Management Platform</Link></h3>
+                              <span className="categories"><Link href="/portfolio-details">Business</Link></span>
                             </div>
-                            <a className="tji-icon-btn" href="/portfolio-details">
+                            <Link className="tji-icon-btn" href="/portfolio-details">
                               <i className="tji-arrow-right-long" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1454,12 +1456,12 @@ export default function Page() {
                         <div className="project-content">
                           <div className="project-text">
                             <div>
-                              <h3 className="title"><a href="/portfolio-details">Rebranding Strategy for a Growing</a></h3>
-                              <span className="categories"><a href="/portfolio-details">Business</a></span>
+                              <h3 className="title"><Link href="/portfolio-details">Rebranding Strategy for a Growing</Link></h3>
+                              <span className="categories"><Link href="/portfolio-details">Business</Link></span>
                             </div>
-                            <a className="tji-icon-btn" href="/portfolio-details">
+                            <Link className="tji-icon-btn" href="/portfolio-details">
                               <i className="tji-arrow-right-long" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1470,12 +1472,12 @@ export default function Page() {
                         <div className="project-content">
                           <div className="project-text">
                             <div>
-                              <h3 className="title"><a href="/portfolio-details">Event Management Platform</a></h3>
-                              <span className="categories"><a href="/portfolio-details">Business</a></span>
+                              <h3 className="title"><Link href="/portfolio-details">Event Management Platform</Link></h3>
+                              <span className="categories"><Link href="/portfolio-details">Business</Link></span>
                             </div>
-                            <a className="tji-icon-btn" href="/portfolio-details">
+                            <Link className="tji-icon-btn" href="/portfolio-details">
                               <i className="tji-arrow-right-long" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1504,7 +1506,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">James Anderson</a></h5>
+                                <h5 className="title"><Link href="/team-details">James Anderson</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1515,7 +1517,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Savannah Ngueen</a></h5>
+                                <h5 className="title"><Link href="/team-details">Savannah Ngueen</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1526,7 +1528,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Emma Richardson</a></h5>
+                                <h5 className="title"><Link href="/team-details">Emma Richardson</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1537,7 +1539,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Eade Marren</a></h5>
+                                <h5 className="title"><Link href="/team-details">Eade Marren</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1548,7 +1550,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">James Anderson</a></h5>
+                                <h5 className="title"><Link href="/team-details">James Anderson</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1559,7 +1561,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Savannah Ngueen</a></h5>
+                                <h5 className="title"><Link href="/team-details">Savannah Ngueen</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1570,7 +1572,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Emma Richardson</a></h5>
+                                <h5 className="title"><Link href="/team-details">Emma Richardson</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1581,7 +1583,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Eade Marren</a></h5>
+                                <h5 className="title"><Link href="/team-details">Eade Marren</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1596,7 +1598,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Benjamin Reed</a></h5>
+                                <h5 className="title"><Link href="/team-details">Benjamin Reed</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1607,7 +1609,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Nathaniel Ellington</a></h5>
+                                <h5 className="title"><Link href="/team-details">Nathaniel Ellington</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1618,7 +1620,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Nathan Price</a></h5>
+                                <h5 className="title"><Link href="/team-details">Nathan Price</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1629,7 +1631,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Caleb Turner</a></h5>
+                                <h5 className="title"><Link href="/team-details">Caleb Turner</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1640,7 +1642,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Benjamin Reed</a></h5>
+                                <h5 className="title"><Link href="/team-details">Benjamin Reed</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1651,7 +1653,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Nathaniel Ellington</a></h5>
+                                <h5 className="title"><Link href="/team-details">Nathaniel Ellington</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1662,7 +1664,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Nathan Price</a></h5>
+                                <h5 className="title"><Link href="/team-details">Nathan Price</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1673,7 +1675,7 @@ export default function Page() {
                           <div className="swiper-slide">
                             <div className="team-item">
                               <div className="team-content">
-                                <h5 className="title"><a href="/team-details">Caleb Turner</a></h5>
+                                <h5 className="title"><Link href="/team-details">Caleb Turner</Link></h5>
                                 <span className="designation">Chief Executive</span>
                               </div>
                               <div className="team-img">
@@ -1712,7 +1714,7 @@ export default function Page() {
                           <div className="accordion-body faq-text">
                             <p>Getting started is easy! Simply reach out to us through our contact form or give us a call,
                               and
-                              weâll schedule a consultation to discuss your project and how we can best assist you. Our team
+                              we'll schedule a consultation to discuss your project and how we can best assist you. Our team
                               keeps you informed throughout the process, ensuring quality control and timely delivery.</p>
                           </div>
                         </div>
@@ -1724,7 +1726,7 @@ export default function Page() {
                           <div className="accordion-body faq-text">
                             <p>Getting started is easy! Simply reach out to us through our contact form or give us a call,
                               and
-                              weâll schedule a consultation to discuss your project and how we can best assist you. Our team
+                              we'll schedule a consultation to discuss your project and how we can best assist you. Our team
                               keeps you informed throughout the process, ensuring quality control and timely delivery.</p>
                           </div>
                         </div>
@@ -1736,7 +1738,7 @@ export default function Page() {
                           <div className="accordion-body faq-text">
                             <p>Getting started is easy! Simply reach out to us through our contact form or give us a call,
                               and
-                              weâll schedule a consultation to discuss your project and how we can best assist you. Our team
+                              we'll schedule a consultation to discuss your project and how we can best assist you. Our team
                               keeps you informed throughout the process, ensuring quality control and timely delivery.</p>
                           </div>
                         </div>
@@ -1748,7 +1750,7 @@ export default function Page() {
                           <div className="accordion-body faq-text">
                             <p>Getting started is easy! Simply reach out to us through our contact form or give us a call,
                               and
-                              weâll schedule a consultation to discuss your project and how we can best assist you. Our team
+                              we'll schedule a consultation to discuss your project and how we can best assist you. Our team
                               keeps you informed throughout the process, ensuring quality control and timely delivery.</p>
                           </div>
                         </div>
@@ -1759,7 +1761,7 @@ export default function Page() {
                           <div className="accordion-body faq-text">
                             <p>Getting started is easy! Simply reach out to us through our contact form or give us a call,
                               and
-                              weâll schedule a consultation to discuss your project and how we can best assist you. Our team
+                              we'll schedule a consultation to discuss your project and how we can best assist you. Our team
                               keeps you informed throughout the process, ensuring quality control and timely delivery.</p>
                           </div>
                         </div>
@@ -1786,9 +1788,9 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-1.webp" alt="" /></a>
+                        <Link href="/blog-details"><img src="/assets/images/blog/blog-1.webp" alt="" /></Link>
                         <div className="blog-meta">
-                          <span className="categories"><a href="/blog-details">Business</a></span>
+                          <span className="categories"><Link href="/blog-details">Business</Link></span>
                         </div>
                       </div>
                       <div className="blog-content">
@@ -1796,11 +1798,11 @@ export default function Page() {
                           <p> June 20, 2025</p>
                         </div>
                         <div className="title-wrapper">
-                          <h4 className="title"><a href="/blog-details">Innovative Solutions for every Business Success.</a>
+                          <h4 className="title"><Link href="/blog-details">Innovative Solutions for every Business Success.</Link>
                           </h4>
-                          <a className="text-btn" href="/service-details">
+                          <Link className="text-btn" href="/service-details">
                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1808,9 +1810,9 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-2.webp" alt="" /></a>
+                        <Link href="/blog-details"><img src="/assets/images/blog/blog-2.webp" alt="" /></Link>
                         <div className="blog-meta">
-                          <span className="categories"><a href="/blog-details">Empower</a></span>
+                          <span className="categories"><Link href="/blog-details">Empower</Link></span>
                         </div>
                       </div>
                       <div className="blog-content">
@@ -1818,12 +1820,12 @@ export default function Page() {
                           <p> June 20, 2025</p>
                         </div>
                         <div className="title-wrapper">
-                          <h4 className="title"><a href="/blog-details">Harnessing Digital Transform a Roadmap
-                              Businesses.</a>
+                          <h4 className="title"><Link href="/blog-details">Harnessing Digital Transform a Roadmap
+                              Businesses.</Link>
                           </h4>
-                          <a className="text-btn" href="/service-details">
+                          <Link className="text-btn" href="/service-details">
                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1831,9 +1833,9 @@ export default function Page() {
                   <div className="col-xl-4 col-md-6">
                     <div className="blog-item wow fadeInUp" data-wow-delay=".4s">
                       <div className="blog-thumb">
-                        <a href="/blog-details"><img src="/assets/images/blog/blog-3.webp" alt="" /></a>
+                        <Link href="/blog-details"><img src="/assets/images/blog/blog-3.webp" alt="" /></Link>
                         <div className="blog-meta">
-                          <span className="categories"><a href="/blog-details">Support</a></span>
+                          <span className="categories"><Link href="/blog-details">Support</Link></span>
                         </div>
                       </div>
                       <div className="blog-content">
@@ -1841,12 +1843,12 @@ export default function Page() {
                           <p> June 20, 2025</p>
                         </div>
                         <div className="title-wrapper">
-                          <h4 className="title"><a href="/blog-details">Mastering Change Management Lessons for
-                              Businesses.</a>
+                          <h4 className="title"><Link href="/blog-details">Mastering Change Management Lessons for
+                              Businesses.</Link>
                           </h4>
-                          <a className="text-btn" href="/service-details">
+                          <Link className="text-btn" href="/service-details">
                             <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1867,10 +1869,10 @@ export default function Page() {
                             <div className="cta-content">
                               <h2 className="title text-anim">Reach Out To Our Support Team?</h2>
                               <div className="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                <a className="tj-primary-btn tj-primary-btn-lg" href="/contact">
+                                <Link className="tj-primary-btn tj-primary-btn-lg" href="/contact">
                                   <span className="btn-text"><span>Contact us</span></span>
                                   <span className="btn-icon"><i className="tji-arrow-right-long" /></span>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -1894,9 +1896,9 @@ export default function Page() {
                   <div className="col-xl-3 col-lg-4 col-md-6">
                     <div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
                       <div className="footer-logo">
-                        <a href="/">
-                          <img src="/assets/images/logos/logo.webp" alt="Logos" />
-                        </a>
+                        <Link href="/">
+                          <img src="/assets/images/logos/youngsightcorporation-logo.svg" alt="youngsightcorporation logo" />
+                        </Link>
                       </div>
                       <div className="footer-text">
                         <p>Developing personalze our customer journeys to increase satisfaction &amp; loyalty of our expansion.
@@ -1916,12 +1918,12 @@ export default function Page() {
                     <div className="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
                       <h5 className="title">Services</h5>
                       <ul>
-                        <li><a href="#">Customer Experience</a></li>
-                        <li><a href="#">Training Programs</a></li>
-                        <li><a href="#">Business Strategy</a></li>
-                        <li><a href="#">Training Program</a></li>
-                        <li><a href="#">ESG Consulting</a></li>
-                        <li><a href="#">Development Hub</a></li>
+                        <li><Link href="#">Customer Experience</Link></li>
+                        <li><Link href="#">Training Programs</Link></li>
+                        <li><Link href="#">Business Strategy</Link></li>
+                        <li><Link href="#">Training Program</Link></li>
+                        <li><Link href="#">ESG Consulting</Link></li>
+                        <li><Link href="#">Development Hub</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -1929,12 +1931,12 @@ export default function Page() {
                     <div className="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".5s">
                       <h5 className="title">Resources</h5>
                       <ul>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Team Member</a></li>
-                        <li><a href="#">Recognitions</a></li>
-                        <li><a href="/careers">Careers <span className="badge">New</span></a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Feedback</a></li>
+                        <li><Link href="#">Contact us</Link></li>
+                        <li><Link href="#">Team Member</Link></li>
+                        <li><Link href="#">Recognitions</Link></li>
+                        <li><Link href="/careers">Careers <span className="badge">New</span></Link></li>
+                        <li><Link href="#">News</Link></li>
+                        <li><Link href="#">Feedback</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -1945,8 +1947,8 @@ export default function Page() {
                         <form action="#">
                           <input type="email" name="email" placeholder="Enter email" />
                           <button type="submit"><i className="tji-plane" /></button>
-                          <label htmlFor="agree"><input id="agree" type="checkbox" />Agree to our <a href="#">Terms &amp;
-                              Condition?</a></label>
+                          <label htmlFor="agree"><input id="agree" type="checkbox" />Agree to our <Link href="#">Terms &amp;
+                              Condition?</Link></label>
                         </form>
                       </div>
                     </div>
@@ -1987,7 +1989,7 @@ export default function Page() {
                         </ul>
                       </div>
                       <div className="copyright-text">
-                        <p>© <span>2026</span>Â&nbsp;<a href="https://themeforest.net/user/theme-junction/portfolio" target="_blank">Bexon</a> All right reserved</p>
+                        <p>© <span>2026</span>&nbsp;<a href="https://themeforest.net/user/theme-junction/portfolio" target="_blank">Bexon</a> All right reserved</p>
                       </div>
                     </div>
                   </div>

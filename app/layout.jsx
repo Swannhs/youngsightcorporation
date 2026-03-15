@@ -38,8 +38,8 @@ const scripts = [
 ];
 
 export const metadata = {
-  title: "Bexon",
-  description: "Bexon migrated into a Next.js application."
+  title: "youngsightcorporation",
+  description: "youngsightcorporation website built with Next.js."
 };
 
 export default function RootLayout({ children }) {

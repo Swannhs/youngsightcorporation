@@ -1266,7 +1266,7 @@ START: Theme Header CSS
 
 .site_logo .logo {
   display: inline-block;
-  max-width: 136px;
+  max-width: 220px;
   width: 100%;
 }
 
@@ -2550,7 +2550,7 @@ START: Theme Footer CSS
 }
 
 .footer-logo {
-  max-width: 150px;
+  max-width: 220px;
 }
 
 .award-logo-area {
@@ -4056,7 +4056,7 @@ START: Theme Search CSS
 
 .hamburger_logo .mobile_logo {
   display: inline-block;
-  max-width: 136px;
+  max-width: 220px;
   width: 100%;
 }
 
