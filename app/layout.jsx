@@ -45,7 +45,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
           <link key={href} rel="stylesheet" href={href} />
         ))}
       </head>
-      <body>{children}
+      <body suppressHydrationWarning>{children}
         {scripts.map((src) => (
           <Script key={src} src={src} strategy="afterInteractive" />
         ))}
