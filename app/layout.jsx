@@ -1,4 +1,6 @@
 import Script from "next/script";
+import Header from "./components/Header";
+import Footer from "./components/footer";
 
 const stylesheets = [
   "/assets/css/bootstrap.min.css",
@@ -11,7 +13,7 @@ const stylesheets = [
   "/assets/css/odometer-theme-default.css",
   "/assets/css/meanmenu.css",
   "/assets/css/main.css",
-  "/assets/css/shop.css"
+  "/assets/css/shop.css",
 ];
 
 const scripts = [
@@ -34,12 +36,12 @@ const scripts = [
   "/assets/js/range-slider.js",
   "/assets/js/validate.min.js",
   "/assets/js/magiccursor.js",
-  "/assets/js/main.js"
+  "/assets/js/main.js",
 ];
 
 export const metadata = {
   title: "youngsightcorporation",
-  description: "youngsightcorporation website built with Next.js."
+  description: "youngsightcorporation website built with Next.js.",
 };
 
 export default function RootLayout({ children }) {
@@ -49,12 +51,44 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav.png" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="/assets/images/fav.png"
+        />
         {stylesheets.map((href) => (
           <link key={href} rel="stylesheet" href={href} />
         ))}
       </head>
-      <body suppressHydrationWarning>{children}
+      <body suppressHydrationWarning>
+        <div className="body-overlay" />
+        <div className="tj-preloader is-loading">
+          <div className="tj-preloader-inner">
+            <div className="tj-preloader-ball-wrap">
+              <div className="tj-preloader-ball-inner-wrap">
+                <div className="tj-preloader-ball-inner">
+                  <div className="tj-preloader-ball" />
+                </div>
+                <div className="tj-preloader-ball-shadow" />
+              </div>
+              <div id="tj-weave-anim" className="tj-preloader-text">
+                Loading...
+              </div>
+            </div>
+          </div>
+          <div className="tj-preloader-overlay" />
+        </div>
+        <div id="tj-back-to-top">
+          <span id="tj-back-to-top-percentage" />
+        </div>
+        <div className="search-popup-overlay" />
+        <Header />
+        <div id="smooth-wrapper">
+          <div id="smooth-content">
+            {children}
+            <Footer />
+          </div>
+        </div>
         <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />
         {scripts.map((src) => (
           <Script key={src} src={src} strategy="afterInteractive" />
