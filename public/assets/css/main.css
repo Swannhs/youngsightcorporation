@@ -598,6 +598,23 @@ img {
   }
 }
 
+.site-main > .space-for-header + .section-gap,
+.site-main > .space-for-header + .section-gap-2 {
+  padding-top: 60px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .site-main > .space-for-header + .section-gap,
+  .site-main > .space-for-header + .section-gap-2 {
+    padding-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .site-main > .space-for-header + .section-gap,
+  .site-main > .space-for-header + .section-gap-2 {
+    padding-top: 35px;
+  }
+}
+
 .top-space-15 {
   padding-top: 15px;
 }
@@ -9978,6 +9995,29 @@ START: Services CSS
 @media (max-width: 575px) {
   .service-item.style-1 {
     height: 400px;
+  }
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+}
+.service-grid .service-grid-item {
+  min-width: 0;
+}
+.service-grid .service-item.style-1 {
+  height: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 }
 .service-item-wrapper {
