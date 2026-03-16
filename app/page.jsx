@@ -231,7 +231,7 @@ export default function Page() {
                 <h5 className="sec-title">
                   Join Over <span className="client-numbers">1000+</span>{" "}
                   Companies with
-                  <span className="client-text">Bexon</span> Here
+                  <span className="client-text">Young Sight Corporation</span> Here
                 </h5>
               </div>
               <div className="swiper client-slider client-slider-1">
@@ -618,7 +618,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            Working with Bexon has been a game-changer for our
+                            Working with Young Sight Corporation has been a game-changer for our
                             business. Their team's professionalism, attention to
                             detail, and innovative solutions have helped us
                             streamline operations and achieve our goals faster
@@ -649,7 +649,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            The results we've seen after partnering with Bexon
+                            The results we've seen after partnering with Young Sight Corporation
                             are beyond our expectations. They not only
                             understood our vision but also brought new ideas to
                             the table that have taken our business to the next
@@ -680,7 +680,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            We've been working with Bexonfor years, and they
+                            We've been working with Young Sight Corporation for years, and they
                             continue to deliver outstanding results. Their team
                             is proactive, responsive, and always goes the extra
                             mile to ensure our needs are met. They've become a
@@ -752,7 +752,7 @@ export default function Page() {
                     data-bs-target="#faq-1"
                     aria-expanded="true"
                   >
-                    What services does Bexon offer to clients?
+                    What services does Young Sight Corporation offer to clients?
                   </button>
                   <div
                     id="faq-1"
@@ -877,8 +877,8 @@ export default function Page() {
                       <span>Head office:</span>
                       <p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
                       <a href="tel:10095447818">P: +1 (009) 544-7818</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -887,8 +887,8 @@ export default function Page() {
                       <span>Regional office:</span>
                       <p>Hessisch Lichtenau 37235, Kassel, Germany.</p>
                       <a href="tel:10098801810">P: +1 (009) 880-1810</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -897,8 +897,8 @@ export default function Page() {
                       <span>Regional office:</span>
                       <p>32 Altamira, State of ParÃ¡, Brazil.</p>
                       <a href="tel:10095447818">P: +1 (009) 544-7818</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -1165,3 +1165,5 @@ export default function Page() {
     </main>
   );
 }
+
+

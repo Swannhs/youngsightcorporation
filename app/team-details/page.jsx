@@ -44,8 +44,8 @@ export default function Page() {
                   <ul>
                     <li>
                       <span>Email address</span>
-                      <a href="mailto:eade.marren@bexon.com">
-                        eade.marren@bexon.com
+                      <a href="mailto:eade.marren@youngsightcorporation.com">
+                        eade.marren@youngsightcorporation.com
                       </a>
                     </li>
                     <li>
@@ -217,4 +217,6 @@ export default function Page() {
     </main>
   );
 }
+
+
 

@@ -230,7 +230,7 @@ export default function Page() {
                 <h5 className="sec-title">
                   Join Over <span className="client-numbers">1000+</span>{" "}
                   Companies with
-                  <span className="client-text">Bexon</span> Here
+                  <span className="client-text">Young Sight Corporation</span> Here
                 </h5>
               </div>
               <div className="swiper client-slider client-slider-1">
@@ -324,7 +324,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            Working with Bexon has been a game-changer for our
+                            Working with Young Sight Corporation has been a game-changer for our
                             business. Their team's professionalism, attention to
                             detail, and innovative solutions have helped us
                             streamline operations and achieve our goals faster
@@ -355,7 +355,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            The results we've seen after partnering with Bexon
+                            The results we've seen after partnering with Young Sight Corporation
                             are beyond our expectations. They not only
                             understood our vision but also brought new ideas to
                             the table that have taken our business to the next
@@ -386,7 +386,7 @@ export default function Page() {
                         </span>
                         <div className="desc">
                           <p>
-                            We've been working with Bexonfor years, and they
+                            We've been working with Young Sight Corporation for years, and they
                             continue to deliver outstanding results. Their team
                             is proactive, responsive, and always goes the extra
                             mile to ensure our needs are met. They've become a
@@ -471,7 +471,7 @@ export default function Page() {
                     <Link href="/team-details">Eade Marren</Link>
                   </h4>
                   <span className="designation">Chief Executive</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -513,7 +513,7 @@ export default function Page() {
                     <Link href="/team-details">Savannah Ngueen</Link>
                   </h4>
                   <span className="designation">Operations Head</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -555,7 +555,7 @@ export default function Page() {
                     <Link href="/team-details">Kristin Watson</Link>
                   </h4>
                   <span className="designation">Marketing Lead</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -597,7 +597,7 @@ export default function Page() {
                     <Link href="/team-details">Darlene Robertson</Link>
                   </h4>
                   <span className="designation">Business Director</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -657,7 +657,7 @@ export default function Page() {
                     data-bs-target="#faq-1"
                     aria-expanded="true"
                   >
-                    What services does Bexon offer to clients?
+                    What services does Young Sight Corporation offer to clients?
                   </button>
                   <div
                     id="faq-1"
@@ -814,4 +814,6 @@ export default function Page() {
     </main>
   );
 }
+
+
 

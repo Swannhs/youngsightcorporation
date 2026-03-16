@@ -46,10 +46,10 @@ export default function Page() {
                 <h3 className="contact-title">Email us</h3>
                 <ul className="contact-list">
                   <li>
-                    <a href="mailto:support@bexon.com">support@bexon.com</a>
+                    <a href="mailto:support@youngsightcorporation.com">support@youngsightcorporation.com</a>
                   </li>
                   <li>
-                    <a href="mailto:info@bexon.com">info@bexon.com</a>
+                    <a href="mailto:info@youngsightcorporation.com">info@youngsightcorporation.com</a>
                   </li>
                 </ul>
               </div>
@@ -84,7 +84,7 @@ export default function Page() {
                 <h3 className="contact-title">Live chat</h3>
                 <ul className="contact-list">
                   <li>
-                    <a href="mailto:livechat@bexon.com">livechat@bexon.com</a>
+                    <a href="mailto:livechat@youngsightcorporation.com">livechat@youngsightcorporation.com</a>
                   </li>
                   <li className="active">
                     <Link href="/contact">Need help?</Link>
@@ -233,4 +233,6 @@ export default function Page() {
     </main>
   );
 }
+
+
 

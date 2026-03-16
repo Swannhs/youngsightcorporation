@@ -250,7 +250,7 @@ export default function Page() {
                       </li>
                       <li>
                         <span className="first-child">Company</span>
-                        <span>Bexon</span>
+                        <span>Young Sight Corporation</span>
                       </li>
                       <li>
                         <span className="first-child">Website</span>
@@ -365,4 +365,5 @@ export default function Page() {
     </main>
   );
 }
+
 

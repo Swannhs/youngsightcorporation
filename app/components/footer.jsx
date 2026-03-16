@@ -164,11 +164,11 @@ export default function Footer() {
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@bexon.com">
+                        <a href="mailto:info@youngsightcorporation.com">
                           <span className="icon">
                             <i className="tji-envelop-2" />
                           </span>
-                          <span className="text">info@bexon.com</span>
+                          <span className="text">info@youngsightcorporation.com</span>
                         </a>
                       </li>
                     </ul>
@@ -197,7 +197,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Bexon
+                        Young Sight Corporation
                       </a>{" "}
                       All right reserved
                     </p>
@@ -218,3 +218,5 @@ export default function Footer() {
     </>
   );
 }
+
+
