@@ -47,7 +47,7 @@ export default function Page() {
                   <p className="wow fadeInUp" data-wow-delay=".3s">
                     In today's dynamic market, a strong and consistent brand
                     identity is key to standing out and driving growth. [Client
-                    Name], a growing business in the Bexon, recognized the need
+                    Name], a growing business in the Young Sight Corporation, recognized the need
                     to evolve its brand to better resonate with an expanding
                     audience and adapt to shifting market trends.
                   </p>
@@ -309,4 +309,5 @@ export default function Page() {
     </main>
   );
 }
+
 

@@ -16,13 +16,13 @@ export default function Page() {
                   <h2>
                     Terms &amp; Conditions{" "}
                     <span className="pill">
-                      Bexon - Corporate Business HTML Template
+                      Young Sight Corporation - Corporate Business HTML Template
                     </span>
                   </h2>
                   <p className="muted">Last updated: September 9, 2025</p>
                   <p>
                     Thank you for choosing{" "}
-                    <strong>Bexon - Corporate Business HTML Template</strong> .
+                    <strong>Young Sight Corporation - Corporate Business HTML Template</strong> .
                     These Terms &amp; Conditions govern your use of the Template
                     purchased from{" "}
                     <a
@@ -44,7 +44,7 @@ export default function Page() {
                     .
                   </p>
                   <div className="note">
-                    <strong>Short version:</strong> You can use Bexon on the
+                    <strong>Short version:</strong> You can use Young Sight Corporation on the
                     number of end products allowed by your Envato license, but
                     you can't resell, redistribute, or share the source files.
                     Support and updates are provided according to the policies
@@ -291,4 +291,5 @@ export default function Page() {
     </main>
   );
 }
+
 

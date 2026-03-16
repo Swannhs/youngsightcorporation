@@ -17,7 +17,7 @@ export default function Page() {
                   Meet Our Team
                 </span>
                 <h2 className="sec-title title-anim">
-                  People Behind <span>Bexon.</span>
+                  People Behind <span>Young Sight Corporation.</span>
                 </h2>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function Page() {
                     <Link href="/team-details">Eade Marren</Link>
                   </h4>
                   <span className="designation">Chief Executive</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -101,7 +101,7 @@ export default function Page() {
                     <Link href="/team-details">Savannah Ngueen</Link>
                   </h4>
                   <span className="designation">Operations Head</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -143,7 +143,7 @@ export default function Page() {
                     <Link href="/team-details">Kristin Watson</Link>
                   </h4>
                   <span className="designation">Marketing Lead</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -185,7 +185,7 @@ export default function Page() {
                     <Link href="/team-details">Darlene Robertson</Link>
                   </h4>
                   <span className="designation">Business Director</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -227,7 +227,7 @@ export default function Page() {
                     <Link href="/team-details">Darlene Robertson</Link>
                   </h4>
                   <span className="designation">Business Director</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -269,7 +269,7 @@ export default function Page() {
                     <Link href="/team-details">Kristin Watson</Link>
                   </h4>
                   <span className="designation">Marketing Lead</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -311,7 +311,7 @@ export default function Page() {
                     <Link href="/team-details">Savannah Ngueen</Link>
                   </h4>
                   <span className="designation">Operations Head</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -353,7 +353,7 @@ export default function Page() {
                     <Link href="/team-details">Eade Marren</Link>
                   </h4>
                   <span className="designation">Chief Executive</span>
-                  <a className="mail-at" href="mailto:info@bexon.com">
+                  <a className="mail-at" href="mailto:info@youngsightcorporation.com">
                     <i className="tji-at" />
                   </a>
                 </div>
@@ -396,4 +396,6 @@ export default function Page() {
     </main>
   );
 }
+
+
 

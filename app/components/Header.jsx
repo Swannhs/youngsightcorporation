@@ -289,8 +289,8 @@ export default function Header() {
                 </div>
                 <div className="contact-item">
                   <span className="subtitle">Email</span>
-                  <a className="contact-link" href="mailto:info@bexon.com">
-                    info@bexon.com
+                  <a className="contact-link" href="mailto:info@youngsightcorporation.com">
+                    info@youngsightcorporation.com
                   </a>
                 </div>
                 <div className="contact-item">
@@ -358,8 +358,8 @@ export default function Header() {
                 </div>
                 <div className="contact-item">
                   <span className="subtitle">Email</span>
-                  <a className="contact-link" href="mailto:info@bexon.com">
-                    info@bexon.com
+                  <a className="contact-link" href="mailto:info@youngsightcorporation.com">
+                    info@youngsightcorporation.com
                   </a>
                 </div>
                 <div className="contact-item">
@@ -398,3 +398,5 @@ export default function Header() {
     </>
   );
 }
+
+

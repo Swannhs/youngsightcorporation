@@ -1,5 +1,5 @@
 {
-  "name": "bexon-next",
+  "name": "Young Sight Corporation-next",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -13,3 +13,4 @@
     "react-dom": "^19.0.0"
   }
 }
+

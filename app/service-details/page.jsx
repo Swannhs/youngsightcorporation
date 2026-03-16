@@ -115,7 +115,7 @@ export default function Page() {
                     Our Range of Customer Services
                   </h3>
                   <p className="wow fadeInUp" data-wow-delay=".3s">
-                    At Bexon, we don't just focus on solving customer
+                    At Young Sight Corporation, we don't just focus on solving customer
                     problemsâwe focus on creating experiences that delight and
                     build lasting relationships. Whether it's through improving
                     customer service operations, leveraging technology, or
@@ -527,4 +527,5 @@ export default function Page() {
     </main>
   );
 }
+
 

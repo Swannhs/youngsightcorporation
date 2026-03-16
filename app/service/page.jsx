@@ -204,8 +204,8 @@ export default function Page() {
                       <span>Head office:</span>
                       <p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
                       <a href="tel:10095447818">P: +1 (009) 544-7818</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -214,8 +214,8 @@ export default function Page() {
                       <span>Regional office:</span>
                       <p>Hessisch Lichtenau 37235, Kassel, Germany.</p>
                       <a href="tel:10098801810">P: +1 (009) 880-1810</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -224,8 +224,8 @@ export default function Page() {
                       <span>Regional office:</span>
                       <p>32 Altamira, State of ParÃ¡, Brazil.</p>
                       <a href="tel:10095447818">P: +1 (009) 544-7818</a>
-                      <a href="mailto:support@bexon.com">
-                        M: support@bexon.com
+                      <a href="mailto:support@youngsightcorporation.com">
+                        M: support@youngsightcorporation.com
                       </a>
                     </div>
                   </div>
@@ -527,7 +527,7 @@ export default function Page() {
                 <h5 className="sec-title">
                   Join Over <span className="client-numbers">1000+</span>{" "}
                   Companies with
-                  <span className="client-text">Bexon</span> Here
+                  <span className="client-text">Young Sight Corporation</span> Here
                 </h5>
               </div>
               <div className="swiper client-slider client-slider-1">
@@ -602,4 +602,6 @@ export default function Page() {
     </main>
   );
 }
+
+
 

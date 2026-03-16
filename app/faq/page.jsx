@@ -42,7 +42,7 @@ export default function Page() {
                     data-bs-target="#faqTwo-1"
                     aria-expanded="true"
                   >
-                    What services does Bexon offer to clients?
+                    What services does Young Sight Corporation offer to clients?
                   </button>
                   <div
                     id="faqTwo-1"
@@ -211,7 +211,7 @@ export default function Page() {
                       data-bs-target="#faq-1"
                       aria-expanded="true"
                     >
-                      What services does Bexon offer to clients?
+                      What services does Young Sight Corporation offer to clients?
                     </button>
                     <div
                       id="faq-1"
@@ -390,4 +390,5 @@ export default function Page() {
     </main>
   );
 }
+
 
